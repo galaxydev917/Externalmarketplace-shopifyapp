@@ -1,0 +1,2 @@
+[28-Mar-2023 06:55:40 UTC] PHP Notice:  Undefined index: hmac in /home/wellspri/public_html/Customapp/generate_token.php on line 11
+[28-Mar-2023 06:55:40 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, null given in /home/wellspri/public_html/Customapp/generate_token.php on line 19
