@@ -1,9 +1,9 @@
 <?php 
-    $API_KEY = "05f9e5d46b9b6520d3c4295b03bebf8c";
-    $SECRET_KEY = "251fb4ab59df822d0a4cbd3a5a17d360";
+    $API_KEY = "f1c59be674274708bbceefcc09ec5d64";
+    $SECRET_KEY = "8ca2fd2b6bc8d3451088c5432b3e00bc";
     $LocationID = "81148838197";
     $ShopHostName = "amconsultingdevstore.myshopify.com";
-    $APP_URL = "http://localhost/ExternalMarketplaces";
+    $APP_URL = "http://3.87.192.115/Externalmarketplace-shopifyapp";
 
     $db_host = 'localhost';
     $db_user = 'root';

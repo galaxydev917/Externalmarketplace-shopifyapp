@@ -98,13 +98,13 @@
 <input type="radio" name="slctval" id="text-lnk" class="slctrad_val" value="text"/>Text 
  <br><br>
 <div id="showOne" class="imglink" style="display:none;">
-<label for="imgupld">Image Upload:</label>
-<input type="file" id="imgupld" name="imgupld" class="imgupld" required="" ><br><br>
-<div class="imgvalue">
-<input type="hidden" name="image_val" class="img_val" value="">
-<img src="" class="imgvalue"></div>
-	<label for="link">Enter Your Link:</label>
-<input type="text" name="imglinks" required="" class="clinks" value="">
+  <label for="imgupld">Image Upload:</label>
+  <input type="file" id="imgupld" name="imgupld" class="imgupld" required="" ><br><br>
+  <div class="imgvalue">
+  <input type="hidden" name="image_val" class="img_val" value="">
+  <img src="" class="imgvalue"></div>
+  <label for="link">Enter Your Link:</label>
+  <input type="text" name="imglinks" required="" class="clinks" value="">
 </div>
 
 <div id="showtwo" class="textlink" style="display:none;">
