@@ -26,22 +26,22 @@
         $result = curl_exec($ch);
         curl_close($ch);
         $data = json_decode($result, true);
+        print_r($data);
+        // $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+        // if (!$conn) {
+        //     die("Connection failed: " . mysqli_connect_error());
+        // }
+        // $shop_name = mysqli_real_escape_string($conn, $params['shop']);
+        // $access_token = mysqli_real_escape_string($conn, $data['access_token']);
 
-        $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-        if (!$conn) {
-            die("Connection failed: " . mysqli_connect_error());
-        }
-        $shop_name = mysqli_real_escape_string($conn, $params['shop']);
-        $access_token = mysqli_real_escape_string($conn, $data['access_token']);
-
-        $sql = "INSERT INTO tbl_accesstokens (shop_name, access_token) VALUES ('$shop_name', '$access_token')";
-        if (mysqli_query($conn, $sql)) {
-            echo "Access token Stored successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }
-        header("Location:". $APP_URL."/Customapp/index.php/?shop_name=".$shop_name);
-        exit();
+        // $sql = "INSERT INTO tbl_accesstokens (shop_name, access_token) VALUES ('$shop_name', '$access_token')";
+        // if (mysqli_query($conn, $sql)) {
+        //     echo "Access token Stored successfully";
+        // } else {
+        //     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        // }
+        // header("Location:". $APP_URL."/Customapp/index.php/?shop_name=".$shop_name);
+        // exit();
     }
     else 
         die('This request is NOT from Shopify!');
