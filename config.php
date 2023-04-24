@@ -3,7 +3,7 @@
     $SECRET_KEY = "8ca2fd2b6bc8d3451088c5432b3e00bc";
     $LocationID = "81148838197";
     $ShopHostName = "amconsultingdevstore.myshopify.com";
-    $APP_URL = "http://3.87.192.115/Externalmarketplace-shopifyapp";
+    $APP_URL = "http://3.87.192.115";
 
     $db_host = 'localhost';
     $db_user = 'root';
